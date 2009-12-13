@@ -1,0 +1,30 @@
+!SESSION 2009-12-13 11:50:27.185 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Documents and Settings\Administrator\workspace\weekend-dev
+
+!ENTRY org.eclipse.jface 2 0 2009-12-13 11:50:35.482
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-12-13 11:50:35.482
+!MESSAGE A conflict occurred for CTRL+/:
+Binding(CTRL+/,
+	ParameterizedCommand(Command(org.eclipse.imp.runtime.editor.toggleComment,Toggle Comment,
+		Comments/uncomments the current selection or the current source line,
+		Category(org.eclipse.imp.runtime.source,Source,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+/,
+	ParameterizedCommand(Command(net.sourceforge.csseditor.commentAction,Co&mment,
+		%commentAction.description,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2009-12-13 11:53:16.576
+!MESSAGE Unable to find Action Set: net.sf.eclipsetidy.ActionSet

@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:mightyA/My-weekend-blog.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[gui]
+	geometry = 908x498+176+184 201 179
